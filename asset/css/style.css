@@ -242,3 +242,63 @@ a {
 .avatar-img .avatar:first-child {
     margin-left: 0;
 }
+/* -------Features------------ */
+.features {
+    margin-top: 130px;
+}
+.features .feature-content {
+    width: 1024px;
+    margin-left: 135px;
+}
+.features .sub-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    color: #767e7e;
+}
+.features .heading.lv2 {
+    margin-top: 18px;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    /* or 133% */
+    width: 577px;
+}
+.features .feature-info .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+    width: 590px;
+}
+.features .feature-list {
+    display: flex;
+    margin-top: 80px;
+}
+.feature-list .feature-item:nth-child(2) {
+    margin-left: 209px;
+}
+.feature-list .feature-item:nth-child(3) {
+    margin-left: 200px;
+}
+.feature-item .image {
+    width: 102px;
+    height: 106px;
+}
+.feature-list .title {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d1111;
+    margin-top: 26px;
+}
+.feature-list .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
+    width: 224px;
+}
+.feature-list .desc:nth-child(1) {
+    width: 168px;
+}
