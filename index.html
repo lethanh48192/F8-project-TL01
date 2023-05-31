@@ -4,7 +4,86 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Project 2.1</title>
+        <title>Besnik.</title>
+
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./asset/Favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./asset/Favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./asset/Favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./asset/Favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./asset/Favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./asset/Favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./asset/Favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./asset/Favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./asset/Favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./asset/Favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./asset/Favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./asset/Favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./asset/Favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./asset/Favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./asset/Favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+
         <!-- reset css -->
         <link rel="stylesheet" href="./asset/css/reset.css" />
         <!-- style.css -->
@@ -14,52 +93,66 @@
         <link rel="stylesheet" href="./asset/fonts/stylesheet.css" />
     </head>
     <body>
-        <header>
-            <div class="header fixed">
-                <div class="main-content">
-                    <div class="navbar">
-                        <img
-                            src="./asset/icon/Logo.svg"
-                            alt="Besnik"
-                            class="logo-img"
-                        />
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="#">
+                            <img
+                                src="./asset/img/logo2.png"
+                                alt="Besnik"
+                                class="logo-img"
+                            />
+                            <img
+                                src="./asset/icon/besnik.svg"
+                                alt=""
+                                class="logo-img"
+                            />
+                            <img
+                                src="./asset/icon/dot.svg"
+                                alt=""
+                                class="logo-img"
+                            />
+                        </a>
+                    </div>
 
-                        <ul class="navigation">
-                            <li class="nav-item active">
-                                <a href="#!">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#!">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="action">
-                            <a href="#!" class="action-link">Sign in</a>
-                            <a href="#!" class="btn action-btn">Sign up</a>
-                        </div>
+                    <ul class="navigation">
+                        <li class="nav-item active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="action">
+                        <a href="#!" class="action-link">Sign in</a>
+                        <a href="#!" class="btn action-btn">Sign up</a>
                     </div>
                 </div>
             </div>
         </header>
-        <main style="height: 5000px">
+        <main>
             <!-- hero -->
             <div class="hero">
                 <div class="main-content">
                     <div class="hero-body">
                         <div class="info">
-                            <p class="sub-title">😎 EASY LEAENING PLATFORM</p>
-                            <h1 class="heading lv1">
+                            <p class="sub-title break-all">
+                                😎 EASY LEAENING PLATFORM
+                            </p>
+                            <h1 class="heading lv1 line-clamp break-all">
                                 Words learner come here.
                             </h1>
-                            <p class="desc">
+                            <p class="desc line-clamp" style="--line-clamp: 3">
                                 Build skills with courses, certificates, and get
                                 online knowledge from our world&#8209;class
                                 platform.
@@ -154,17 +247,17 @@
             </div>
 
             <!-- feature -->
-            <div class="features">
-                <div class=" feature-content">
+            <div class="features" id="features">
+                <div class="main-content feature-content">
                     <div class="feature-info">
-                    	<p class="sub-title">F E A T U R E S</p>
-	                    <h2 class="heading lv2">
-	                        We are providing suitable features for students.
-	                    </h2>
-	                    <p class="desc">
-	                        Read our awesome feature that is absolutely suit for
-	                        you. Explore the feature and know the best.
-	                    </p>
+                        <p class="sub-title">F E A T U R E S</p>
+                        <h2 class="heading lv2 line-clamp break-all">
+                            We are providing suitable features for students.
+                        </h2>
+                        <p class="desc line-clamp break-all">
+                            Read our awesome feature that is absolutely suit for
+                            you. Explore the feature and know the best.
+                        </p>
                     </div>
                     <div class="feature-list">
                         <!-- feature-item 1 -->
@@ -174,8 +267,13 @@
                                 alt="Live Class"
                                 class="image"
                             />
-                            <h3 class="title">Live Class</h3>
-                            <p class="desc">
+                            <h3
+                                class="title line-clamp"
+                                style="--line-clamp: 1"
+                            >
+                                Live Class
+                            </h3>
+                            <p class="desc line-clamp" style="--line-clamp: 3">
                                 We are providing live classes with the best
                                 teacher for you
                             </p>
@@ -187,8 +285,8 @@
                                 alt="Discuss"
                                 class="image"
                             />
-                            <h3 class="title">Discuss</h3>
-                            <p class="desc">
+                            <h3 class="title line-clamp">Discuss</h3>
+                            <p class="desc line-clamp" style="--line-clamp: 3">
                                 Conversation with teachers or another students
                                 about task or any other thing
                             </p>
@@ -200,8 +298,8 @@
                                 alt="Task"
                                 class="image"
                             />
-                            <h3 class="title">Task</h3>
-                            <p class="desc">
+                            <h3 class="title line-clamp">Task</h3>
+                            <p class="desc line-clamp" style="--line-clamp: 3">
                                 We give every of our students task for gathering
                                 knowledge at home
                             </p>
@@ -209,6 +307,340 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Popular course  -->
+            <div id="pricing" class="course">
+                <div class="main-content">
+                    <div class="course-info">
+                        <p class="sub-title">C O U R S E S</p>
+                        <h2 class="heading lv2">Popular Courses</h2>
+                        <div class="info">
+                            <p class="desc">
+                                Check out our most poular courses that suit for
+                                you. Here you can find your favourite one.
+                            </p>
+                            <a href="" class="link">View All Courses</a>
+                        </div>
+                    </div>
+                    <div class="course-list">
+                        <!-- course-item 1 -->
+                        <div class="course-item">
+                            <div class="image">
+                                <img
+                                    src="./asset/img/course-1.jpg"
+                                    alt="Web Design"
+                                />
+                            </div>
+                            <div class="info-course">
+                                <h3 class="heading lv3">Web Design</h3>
+                                <p class="number">Fee <strong>$200</strong></p>
+                                <p class="desc">
+                                    Web design basic to higer level
+                                </p>
+                                <div class="date">
+                                    <div class="classes">
+                                        <span></span>
+                                        <p class="date-info">40 Classes</p>
+                                    </div>
+                                    <div class="time">
+                                        <span></span>
+                                        <p class="date-info">3 Months</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- course-item 2 -->
+                        <div class="course-item">
+                            <div class="image">
+                                <img
+                                    src="./asset/img/course-2.jpg"
+                                    alt="Web Development"
+                                />
+                            </div>
+                            <div class="info-course">
+                                <h3 class="heading lv3">Web Development</h3>
+                                <p class="number">Fee <strong>$250</strong></p>
+                                <p class="desc">
+                                    Web development basic to higer level
+                                </p>
+                                <div class="date">
+                                    <div class="classes">
+                                        <span></span>
+                                        <p class="date-info">30 Classes</p>
+                                    </div>
+                                    <div class="time">
+                                        <span></span>
+                                        <p class="date-info">3 Months</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- course-item 3 -->
+                        <div class="course-item">
+                            <div class="image">
+                                <img
+                                    src="./asset/img/course-3.jpg"
+                                    alt="UI/UX Design"
+                                />
+                            </div>
+                            <div class="info-course">
+                                <h3 class="heading lv3">UI/UX Design</h3>
+                                <p class="number">Fee <strong>$350</strong></p>
+                                <p class="desc">
+                                    UI/UX design basic to higer level
+                                </p>
+                                <div class="date">
+                                    <div class="classes">
+                                        <span></span>
+                                        <p class="date-info">50 Classes</p>
+                                    </div>
+                                    <div class="time">
+                                        <span></span>
+                                        <p class="date-info">4 Months</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="main-content stats">
+                <div class="stats-list">
+                    <!-- stats -item 1 -->
+                    <div class="stats-item">
+                        <strong>100+</strong>
+                        <p class="desc">Popular Courses</p>
+                    </div>
+                    <!-- stats -item 2 -->
+                    <div class="stats-item">
+                        <strong>500+</strong>
+                        <p class="desc">Skilled Trainer</p>
+                    </div>
+                    <!-- stats -item 3 -->
+                    <div class="stats-item">
+                        <strong>1M+</strong>
+                        <p class="desc">Student Learning</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- feedback -->
+            <div id="about" class="feedback">
+                <div class="main-content">
+                    <div class="feedback-content">
+                        <div class="feedback-info">
+                            <img
+                                src="./asset/icon/quotes.svg"
+                                alt=""
+                                class="fb-img"
+                            />
+                            <!-- feedback 1 -->
+                            <div class="list-feedback">
+                                <div class="feedback-item">
+                                    <blockquote
+                                        class="line-clamp"
+                                        style="--line-clamp: 4"
+                                    >
+                                        “They are the best people. And this is
+                                        the suitable platform to learn from
+                                        distance.”
+                                    </blockquote>
+                                    <p class="sub-desc">
+                                        <strong>Ben Foakes,</strong> student.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="control">
+                                <a class="link-control">
+                                    <img
+                                        src="./asset/icon/Vector -left.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <a class="link-control">
+                                    <img
+                                        src="./asset/icon/Vector-right.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img-block">
+                            <img
+                                src="./asset/img/avatar-1.jpg"
+                                alt=""
+                                class="avatar"
+                            />
+                            <img
+                                src="./asset/img/avatar-2.jpg"
+                                alt=""
+                                class="avatar"
+                            />
+                            <img
+                                src="./asset/img/avatar-3.jpg"
+                                alt=""
+                                class="avatar"
+                            />
+                            <img
+                                src="./asset/img/avatar-4.jpg"
+                                alt=""
+                                class="avatar"
+                            />
+                            <img
+                                src="./asset/img/avatar-5.jpg"
+                                alt=""
+                                class="avatar"
+                            />
+                            <img
+                                src="./asset/img/avatar-6.jpg"
+                                alt=""
+                                class="avatar"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CTA -->
+            <div class="get-started">
+                <div class="main-content">
+                    <div class="get-admit">
+                        <div class="info">
+                            <h2 class="heading get-heading">
+                                Ready to Get Admit
+                            </h2>
+                            <p class="desc">
+                                Create your account and Boost your Career.
+                            </p>
+                        </div>
+                        <div class="action">
+                            <a href="#!" class="btn get-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
+        <footer id="contact">
+            <div class="footer">
+                <div class="main-content">
+                    <div class="footer-body">
+                        <div class="foot-logo">
+                            <a href="#">
+                                <img
+                                    src="./asset/img/logo2.png"
+                                    alt="Besnik"
+                                    class="logo"
+                                />
+                                <img
+                                    src="./asset/icon/besnik.svg"
+                                    alt="Besnik"
+                                    class="logo"
+                                />
+                                <img
+                                    src="./asset/icon/dot.svg"
+                                    alt="Besnik"
+                                    class="logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="footer-column">
+                            <!-- column 1 -->
+                            <div class="column-item">
+                                <p class="title">Company</p>
+                                <ul class="footer-list">
+                                    <li class="list-item">
+                                        <a href="">About</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="">Careers</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="">Press</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- column 2 -->
+
+                            <div class="column-item">
+                                <p class="title">Community</p>
+
+                                <ul class="footer-list">
+                                    <li class="list-item">
+                                        <a href="">Team Plans</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="">Blog</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="">Students</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="">Schoolarships</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- column 3 -->
+
+                            <div class="column-item">
+                                <p class="title">Teaching</p>
+
+                                <ul class="footer-list">
+                                    <li class="list-item">
+                                        <a href="">Become a teacher</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="">Teaching academy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <p class="title">Be social</p>
+                            <ul class="list-contact">
+                                <li class="item">
+                                    <img
+                                        src="./asset/icon/twitter.svg"
+                                        alt="twitter"
+                                        class="icon"
+                                    />
+                                    <a href="#!">Twitter</a>
+                                </li>
+                                <li class="item">
+                                    <img
+                                        src="./asset/icon/facebook.svg"
+                                        alt="Facebook"
+                                        class="icon"
+                                    />
+
+                                    <a href="#!" class="facebook">Facebook</a>
+                                </li>
+                                <li class="item">
+                                    <img
+                                        src="./asset/icon/Instagram.svg"
+                                        alt="Instagram"
+                                        class="icon"
+                                    />
+
+                                    <a href="#!">Instagram</a>
+                                </li>
+                                <li class="item">
+                                    <img
+                                        src="./asset/icon/Linkedin.svg"
+                                        alt="Linkedin"
+                                        class="icon"
+                                    />
+                                    <a href="#!">Linkedin</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        © Copyright 2020 by Mayad Ahmed. All right reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
